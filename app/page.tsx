@@ -24,7 +24,6 @@ const messageType = {
 const HomePage = () => {
   const username = localStorage.getItem("username");
 
-  // const navigate = useNavigate();
   const inputRef: any = useRef();
   const chatWrapperRef: any = useRef();
 
@@ -70,8 +69,7 @@ const HomePage = () => {
   };
 
   const onSignOut = () => {
-    // localStorage.removeItem("tkn");
-    // navigate("/signin");
+   // Sogn Out logic
   };
 
   useEffect(() => {
